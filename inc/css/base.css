@@ -11,7 +11,9 @@ header{
 	box-sizing:border-box;
 }
 
-
+ul li {
+  list-style-type: none;
+}
 /****************************************************
 			Custom Grids
 *****************************************************/
@@ -281,7 +283,7 @@ header>nav .links li{
 }
 
 .page-content .main-carousel .carousel-next{
-  right: 0.99%;
+  right: 3px;
   z-index: 55;
 }
 
