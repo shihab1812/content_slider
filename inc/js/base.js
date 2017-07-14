@@ -9,10 +9,6 @@
 
 
 	var Carousel = {
-		props: {
-			current_slide: null,
-			total_slides: null
-		},
 		init: function () {
 			//ADD INITIALIZER CODE HERE
 
@@ -49,8 +45,8 @@
 				$('.oldActive').next().addClass('active');
 			}
 			$('.oldActive').removeClass('oldActive');
-			$('.slide').fadeOut(speed);
-			$('.active').fadeIn(speed);
+			$('.slide').hide(200);
+			$('.active').show(200);
 		},
 
 		//Switch to Previous Slide
@@ -64,12 +60,9 @@
 				$('.oldActive').prev().addClass('active');
 			}
 			$('.oldActive').removeClass('oldActive');
-			$('.slide').fadeOut(speed);
-			$('.active').fadeIn(speed);
+			$('.slide').hide(200);
+			$('.active').show(200);
 		},
-		update: function () {
-			//ADD UPDATE CODE HERE
-		}
 	}
 
 
