@@ -1,5 +1,6 @@
 body {
   background-color: #e2e2e2;
+  position: relative;
 }
 
 header {
@@ -426,6 +427,11 @@ header>nav .links li {
 
 footer {
   width: 100%;
-  background: #c1bfbf;
-  height: 50px;
+    background: #c1bfbf;
+    position: absolute;
+    height: 50px;
+    height: 50px;
+    bottom: 0px;
+    top: 100%;
+
 }
