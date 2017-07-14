@@ -4,17 +4,18 @@
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>FED Conclusive Exercise</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="inc/css/reset.css" />
+	<title>FED Conclusive Exercise</title>
+	<!-- Normalize for browser rendering -->
+	<link rel="stylesheet" type="text/css" href="inc/css/reset.css" /> 
+	<!-- application related styles -->
 	<link rel="stylesheet" type="text/css" href="inc/css/base.css" />
-
-	<script src="inc/js/vendor/jquery.min.js"></script>
-	<script src="inc/js/base.js"></script>
 
 </head>
 
 <body>
+
+	<!-- header navigation of Application -->
 	<header class="container-fluid">
 		<nav>
 			<ul class="list-inline push-right links">
@@ -26,36 +27,47 @@
 		</nav>
 		<h2 class="logo">LOGO</h2>
 	</header>
+	<!-- main sectin  of Application -->
 	<div class="page-content">
+
+		<!-- carousel wrapper -->
 		<section class="main-carousel">
 			<div class="carousel-next">&gt;</div>
 			<div class="carousel-prev">&lt;</div>
 			<div class="carousel-cells">
-				<article class="col-medium-12">
+				<article class="col-medium-12 slide">
 					<div class="slide-text">
 						<h1>Slide One</h1>
 						<p>A slide about sliding slides.</p>
 					</div>
 				</article>
-				<article class="col-medium-12">
+				<article class="col-medium-12 slide">
 					<div class="slide-text">
 						<h1>Slide Two</h1>
 						<p>A slide-sliding slider sliding slides.</p>
 					</div>
 				</article>
-				<article class="col-medium-12">
+				<article class="col-medium-12 slide">
 					<div class="slide-text">
 						<h1>Slide Three</h1>
 						<p>A slide-sliding slider sliding slides.</p>
 					</div>
 				</article>
+				<article class="col-medium-12 slide">
+					<div class="slide-text">
+						<h1>Slide four</h1>
+						<p>A slide-sliding slider sliding slides.</p>
+					</div>
+				</article>
 			</div>
 		</section>
-		<section class="column-content container-fluid">
+
+		<!-- three column wrapper-->
+		<section class="column-content container-fluid over-hidden">
 			<h1>Three Columns</h1>
 			<div class="three-columns">
 				<div class="row">
-					<aside class="list-block col-large-3 col-medium-4">
+					<aside class="list-block col-large-3 col-medium-4 col-small-6">
 						<h3>List Heading</h3>
 						<ul>
 							<li>List Item</li>
@@ -65,7 +77,7 @@
 							<li>List Item</li>
 						</ul>
 					</aside>
-					<aside class="list-block col-large-3 col-medium-4">
+					<aside class="list-block col-large-3 col-medium-4 col-small-6">
 						<h3>List Heading</h3>
 						<ul>
 							<li>List Item</li>
@@ -75,7 +87,7 @@
 							<li>List Item</li>
 						</ul>
 					</aside>
-					<aside class="list-block col-large-3 col-medium-4">
+					<aside class="list-block col-large-3 col-medium-4 col-small-6">
 						<h3>List Heading</h3>
 						<ul>
 							<li>List Item</li>
@@ -86,7 +98,7 @@
 							<li>List Item</li>
 						</ul>
 					</aside>
-					<aside class="list-block col-large-3 col-medium-4">
+					<aside class="list-block col-large-3 col-medium-4 col-small-6">
 						<h3>List Heading</h3>
 						<ul>
 							<li>List Item</li>
@@ -100,6 +112,11 @@
 		</section>
 	</div>
 
+	<!--footer of application -->
+	<footer></footer>
+
+	<script src="inc/js/vendor/jquery.min.js"></script>
+	<script src="inc/js/base.js"></script>
 </body>
 
 </html>
