@@ -5,7 +5,7 @@
 (function () {
 
 	// options
-	var speed = 500; 
+	var speed = 500;
 
 
 	var Carousel = {
@@ -23,13 +23,13 @@
 
 			// call binding events
 			Carousel.bindEvents();
-	},
-		bindEvents: function () {	
+		},
+		bindEvents: function () {
 			// Next Event Handler
 			$(".carousel-next").on("click", function () {
 				Carousel.next();
 			});
-			
+
 			// Previous Event Handler
 			$(".carousel-prev").on("click", function () {
 				Carousel.previous();
@@ -51,8 +51,8 @@
 
 		//Switch to Previous Slide
 		previous: function () {
-			
-		
+
+
 			$('.active').removeClass('active').addClass('oldActive');
 			if ($('.oldActive').is(':first-child')) {
 				$('.slide').last().addClass('active');
